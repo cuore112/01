@@ -1,0 +1,39 @@
+#include <iostream>
+using namescape std;
+
+void drump_role(Role& role)
+{
+  cout<<"名稱: "<<role.name<<endl;
+  cout<<"等級: "<<role.level<<endl;
+  cout<<"血量: "<<role.hp<<endle;
+  cout<<"防禦: "<<role.dp<<endle;
+  cout<<"攻擊: "<<role.ap<<endl;
+  cout<<"精神: "<<role.sp"<<endl;
+  
+};
+struct Role
+{
+  char *name;
+  int level; 
+  int hp;
+  int dp;
+  int ap;
+  int sp;
+};
+void test_role()
+{
+char name[]="路人甲";
+role.name = name;
+role.levl = 1;
+role.hp = 10;
+role.dp = 1;
+role.ap = 1;
+role.sp = 1;
+
+drump_role(role);
+}
+
+int main(int argc, char *argv[])
+{
+  test_role();
+}
